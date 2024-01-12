@@ -50,7 +50,7 @@ try
             {
                 // console.log(true);
                 play = false;   
-                msg.innerHTML = `Awesome, It's Correct. It is ${newWords}`;
+                msg.innerHTML = `Fantastic, It's Correct. It is ${newWords}`;
                 btn.innerHTML = "Start Again";
                 guess.classList.toggle('hidden');
                 guess.value = "";
